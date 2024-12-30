@@ -1,0 +1,174 @@
+/* About Us Section */
+.about-us {
+    background: #f9f9f9;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.about-us .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us .section-title {
+    font-size: 2.5rem;
+    color: #005255;
+    margin-bottom: 30px;
+    font-family: 'Candal', serif;
+}
+
+.about-us .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .about-image {
+    flex: 1 1 40%;
+}
+
+.about-us .about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-us .about-text {
+    flex: 1 1 50%;
+    text-align: left;
+}
+
+.about-us .about-text h2 {
+    font-size: 2rem;
+    color: #005255;
+    margin-bottom: 20px;
+}
+
+.about-us .about-text p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-us .about-text .btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background: #006669;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Lora', serif;
+}
+
+.about-us .about-text .btn:hover {
+    background: #005255;
+}
+
+/* Highlight for Active Page in Navbar */
+.nav .active {
+    background: #005255;
+    padding: 21px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+
+
+header {
+    background: #008489;
+    height: 66px;
+}
+
+header * {
+    color: white;
+}
+
+header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text {
+    margin: 9px;
+    font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+    color: #08f1e1;
+}
+
+header ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+header ul li {
+    float: left;
+    position: relative;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
+    display: none;
+    z-index: 88888;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+header ul li ul li {
+    width: 100%;
+}
+
+header ul li ul li a {
+    padding: 10px;
+    background: white;
+    color: #444;
+}
+
+header ul li ul li a.logout {
+    color: red;
+}
+
+header ul li ul li a:hover {
+    background: #d5d6d6;
+}
+
+header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background: #006669;
+    transition: 0.5s;
+}
+
+header .menu-toggle {
+    display: none;
+}
+
+body{
+    margin: 0px !important;
+}
+
+
