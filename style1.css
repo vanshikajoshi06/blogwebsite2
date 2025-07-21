@@ -4,10 +4,12 @@
   --base-color: white;
   --text-color: #2E2B41;
   --input-color: #F3F0FF;
+  --buttonhover-color: #138e91;
 }
 *{
   margin: 0;
   padding: 0;
+  
 }
 html{
   font-family: Poppins, Segoe UI, sans-serif;
@@ -107,7 +109,7 @@ form button{
   transition: 150ms ease;
 }
 form button:hover{
-  background-color: var(--text-color);
+  background-color: var(--buttonhover-color);
 }
 form button:focus{
   outline: none;
@@ -115,7 +117,7 @@ form button:focus{
 }
 a{
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 a:hover{
   text-decoration: underline;
